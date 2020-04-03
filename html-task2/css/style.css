@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #add8e6;
+  font-family: helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+.logo {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  background: #fff;
+  max-width: 100%;
+  padding: 3rem;
+  margin-top: 1.5rem;
+  border-bottom-right-radius: 1.25rem;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+.header-h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #083e9e;
+  margin-bottom: 0rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+.lead {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin-top: 0rem;
+}
+
+.form-flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  font-size: 0.75rem;
+  line-height: 2;
+  font-weight: bold;
+  color: #4a5568;
+  margin-bottom: 0.2rem;
+}
+.form-input {
+  padding: 1rem 0rem 1rem 1rem;
+  color: #a0aec0;
+  background-color: #edf2f7;
+  border: none;
+  border-radius: 5px;
+}
+.select {
+  padding: 1rem 0rem 1rem 1rem;
+  background-color: #edf2f7;
+  border: none;
+  border-radius: 5px;
+}
+.btn {
+  width: 100%;
+  background-color: rgb(8, 62, 158);
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: transparent;
+  border-bottom-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+.btn:hover {
+  background-color: rgb(6, 43, 111);
+}
+/* .select::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+} */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 14px;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: rgb(179, 179, 179);
+}
+.dropdown-menu {
+  position: absolute;
+  transform: translate3d(0px, -129px, 0px);
+  top: 0px;
+  left: 0px;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  font-size: 13px;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
