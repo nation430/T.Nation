@@ -8,7 +8,9 @@ body {
 }
 .logo {
   text-align: center;
+  margin-top: 2rem;
 }
+
 .container {
   display: flex;
   justify-content: center;
@@ -18,9 +20,9 @@ body {
   max-width: 100%;
   padding: 3rem;
   margin-top: 1.5rem;
-  border-bottom-right-radius: 1.25rem;
-  border-top-left-radius: 1.25rem;
-  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .header-h1 {
   font-size: 1.4rem;
@@ -50,14 +52,14 @@ body {
   margin-bottom: 0.2rem;
 }
 .form-input {
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem 0rem;
   color: #a0aec0;
   background-color: #edf2f7;
   border: none;
   border-radius: 5px;
 }
 .select {
-  padding: 1rem 0rem 1rem 1rem;
+  padding: 1rem 0rem;
   background-color: #edf2f7;
   border: none;
   border-radius: 5px;
@@ -70,24 +72,13 @@ body {
   padding-bottom: 1rem;
   padding-top: 1rem;
   border: transparent;
-  border-bottom-right-radius: 0.75rem;
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 .btn:hover {
   background-color: rgb(6, 43, 111);
 }
-/* .select::after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 0.255em;
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-} */
 
 .footer {
   display: flex;
@@ -102,25 +93,5 @@ body {
   color: #fff;
 }
 .footer a:hover {
-  color: rgb(179, 179, 179);
-}
-.dropdown-menu {
-  position: absolute;
-  transform: translate3d(0px, -129px, 0px);
-  top: 0px;
-  left: 0px;
-}
-
-.dropdown-item {
-  display: block;
-  width: 100%;
-  padding: 0.25rem 1.5rem;
-  font-size: 13px;
-  clear: both;
-  font-weight: 400;
-  color: #212529;
-  text-align: inherit;
-  white-space: nowrap;
-  background-color: transparent;
-  border: 0;
+  color: rgb(179, 179, 20px);
 }
